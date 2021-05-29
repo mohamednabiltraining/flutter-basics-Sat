@@ -15,8 +15,7 @@ class MyApplication extends StatelessWidget{
     home: Scaffold(
       appBar: AppBar(title: Text('Route Basics'),) ,
      // body:SimpleCounterWidget()
-      body:CategoryItem('1','')
-
+      body:SimpleCounterWidget()
     ),
     );
   }
