@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basics_g_sat/CategoryItem.dart';
 import 'package:flutter_basics_g_sat/CategoryTitleItem.dart';
+import 'package:flutter_basics_g_sat/GridViewScreen.dart';
+import 'package:flutter_basics_g_sat/ListviewScreen.dart';
 import 'package:flutter_basics_g_sat/SimpleCounter.dart';
 import 'package:flutter_basics_g_sat/calculator/Calculator.dart';
 
@@ -15,7 +17,7 @@ class MyApplication extends StatelessWidget{
     home: Scaffold(
       appBar: AppBar(title: Text('Route Basics'),) ,
      // body:SimpleCounterWidget()
-      body:SimpleCounterWidget()
+      body: GridViewScreen()
     ),
     );
   }
