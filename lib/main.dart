@@ -15,7 +15,7 @@ class MyApplication extends StatelessWidget{
     home: Scaffold(
       appBar: AppBar(title: Text('FaceBook'),) ,
      // body:SimpleCounterWidget()
-      body:CalculatorWidget()
+      body:SimpleCounterWidget()
     ),
     );
   }
