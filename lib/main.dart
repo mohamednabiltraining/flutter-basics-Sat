@@ -11,9 +11,9 @@ void main(){
 class MyApplication extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title:'new flutter app' ,
+    return MaterialApp(title:'Route Basics' ,
     home: Scaffold(
-      appBar: AppBar(title: Text('FaceBook'),) ,
+      appBar: AppBar(title: Text('Route Basics'),) ,
      // body:SimpleCounterWidget()
       body:CalculatorWidget()
     ),
